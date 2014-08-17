@@ -1,5 +1,12 @@
 Revision history for IOD-Examples
 
+0.03     2014-08-17 (SHARYANTO)
+
+         - Add example: include to subdir (and include from included).
+
+         - Fix JSON for merge examples.
+
+
 0.02     2014-08-17 (SHARYANTO)
 
          - Add more examples, produce .json files.
