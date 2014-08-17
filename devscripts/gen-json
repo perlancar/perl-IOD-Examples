@@ -1,0 +1,19 @@
+#!/usr/bin/env perl
+
+use 5.010;
+use strict;
+use warnings;
+
+use Config::IOD::Reader;
+use File::Slurp::Tiny qw(write_file);
+use JSON;
+
+my $json = JSON->new->allow_nonref->pretty;
+
+my $reader = Config::IOD::Reader->new;
+for (glob "share/examples/*.iod") {
+    next if /^TODO|invalid-/;
+    say "$_ ...";
+    write_file("$_.json", $json->encode($reader->read_file($_)));
+}
+
