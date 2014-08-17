@@ -1,4 +1,5 @@
 [section]
-name1=!hex 00FF00 ; uppercase
+; nn
+name1=!hex 6E6E ; uppercase
 ; steven
-name2=!h 3747566756e6
+name2=!h 73746576656e

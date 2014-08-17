@@ -1,0 +1,10 @@
+{
+   "section" : {
+      "name" : "val",
+      "name2" : "two\nlines"
+   },
+   "section2" : {
+      "name" : "val",
+      "name2" : "two\nlines"
+   }
+}
