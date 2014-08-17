@@ -1,0 +1,6 @@
+[section]
+json1 = !j true
+json2 = !j null
+json3 = !json "This is a\ntwo line string"
+json4 = !json ["This", "is", "an", "array"]
+json5 = !json {"A":"hash"}

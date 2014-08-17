@@ -1,0 +1,15 @@
+; unindented comment line
+; another line
+
+# unindented comment line using the pound sign
+# another line
+
+  ; indented comment line
+[section] ; at the end section line
+name=val ; after value
+name2="two\nlines" ; after string value
+
+  # indented comment line
+[section2] # at the end section line
+name=val # after value
+name2="two\nlines" # after string value
