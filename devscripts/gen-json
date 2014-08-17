@@ -8,11 +8,11 @@ use Config::IOD::Reader;
 use File::Slurp::Tiny qw(write_file);
 use JSON;
 
-my $json = JSON->new->allow_nonref->pretty;
+my $json = JSON->new->allow_nonref->pretty->canonical;
 
 my $reader = Config::IOD::Reader->new;
 for (glob "share/examples/*.iod") {
-    next if /^TODO|invalid-/;
+    next if /TODO-|invalid-/;
     say "$_ ...";
     write_file("$_.json", $json->encode($reader->read_file($_)));
 }
