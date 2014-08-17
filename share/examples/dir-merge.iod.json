@@ -1,28 +1,29 @@
 {
    "alice" : {
       "salary" : "1000",
-      "office" : "bandung",
-      "non-remote" : "0",
       "bonus" : "100",
+      "non-remote" : "0",
+      "office" : "bandung",
       "senior" : "1"
    },
-   "rudi" : {
-      "office" : "yogyakarta",
-      "salary" : "800"
-   },
-   "common" : {
-      "office" : "bandung",
-      "salary" : "1000",
-      "non-remote" : "0"
-   },
    "bob" : {
-      "overtime" : "1",
-      "office" : "bandung",
+      "non-remote" : "0",
       "salary" : "1000",
-      "non-remote" : "0"
+      "overtime" : "1",
+      "office" : "bandung"
    },
    "charlie" : {
-      "salary" : "1400",
-      "office" : "jakarta"
+      "office" : "jakarta",
+      "salary" : "1400"
+   },
+   "common" : {
+      "salary" : "1000",
+      "non-remote" : "0",
+      "office" : "bandung"
+   },
+   "rudi" : {
+      "salary" : "800",
+      "office" : "yogyakarta"
    }
 }
+
