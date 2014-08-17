@@ -1,5 +1,12 @@
 Revision history for IOD-Examples
 
+0.04     2014-08-17 (SHARYANTO)
+
+         - No example changes.
+
+         - Add devscripts/gen-json.
+
+
 0.03     2014-08-17 (SHARYANTO)
 
          - Add example: include to subdir (and include from included).
