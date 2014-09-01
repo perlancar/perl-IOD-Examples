@@ -1,5 +1,11 @@
 Revision history for IOD-Examples
 
+0.07     2014-09-01 (PERLANCAR)
+
+         - Move expr examples to subdir so they are not tested by default by
+           Config-IOD-Reader [CT].
+
+
 0.06     2014-08-30 (PERLANCAR)
 
          - Add example: encoding-expr.iod.
