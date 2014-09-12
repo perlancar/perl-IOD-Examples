@@ -1,7 +1,7 @@
 {
    "section" : {
       "name" : "val",
-      "name2" : "two\nlines"
+      "name2" : "two\n;lines"
    },
    "section2" : {
       "name" : "val",
@@ -9,11 +9,13 @@
       "name3" : [
          1,
          2,
-         3
+         3,
+         "#"
       ],
       "name4" : {
          "a" : 1,
-         "b" : 2
+         "b" : 2,
+         "c" : "#"
       }
    }
 }
