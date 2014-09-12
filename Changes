@@ -1,5 +1,10 @@
 Revision history for IOD-Examples
 
+0.08    2014-09-12 (PERLANCAR)
+
+	- Test comment character inside string/array/object.
+
+
 0.07     2014-09-01 (PERLANCAR)
 
          - Move expr examples to subdir so they are not tested by default by
