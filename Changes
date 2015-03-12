@@ -1,5 +1,10 @@
 Revision history for IOD-Examples
 
+0.10    2015-03-12 (PERLANCAR)
+
+        - Add examples: extra-bench-basic-compat.
+
+
 0.09    2015-03-12 (PERLANCAR)
 
         - Add examples: empty-section, extra-bench-basic, extra-bench-typical1.
