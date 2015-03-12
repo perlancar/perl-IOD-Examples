@@ -1,5 +1,10 @@
 Revision history for IOD-Examples
 
+0.09    2015-03-12 (PERLANCAR)
+
+        - Add examples: empty-section, extra-bench-basic, extra-bench-typical1.
+
+
 0.08    2014-09-12 (PERLANCAR)
 
 	- Test comment character inside string/array/object.
