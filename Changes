@@ -1,5 +1,13 @@
 Revision history for IOD-Examples
 
+0.11    2015-03-19 (PERLANCAR)
+
+	- Replace File::Slurp::Tiny (which produces 'wide character in
+	  print' warning) with File::Slurper.
+
+	- Add example: invalid-directive-unknown.iod.
+
+
 0.10    2015-03-12 (PERLANCAR)
 
         - Add examples: extra-bench-basic-compat.
