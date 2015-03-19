@@ -5,7 +5,7 @@ use strict;
 use warnings;
 
 use Config::IOD::Reader;
-use File::Slurp::Tiny qw(write_file);
+use File::Slurper qw(write_text);
 use JSON;
 
 my $json = JSON->new->allow_nonref->pretty->canonical;
@@ -14,6 +14,6 @@ my $reader = Config::IOD::Reader->new(enable_expr=>1);
 for (glob "share/examples/*.iod") {
     next if /TODO-|invalid-/;
     say "$_ ...";
-    write_file("$_.json", $json->encode($reader->read_file($_)));
+    write_text("$_.json", $json->encode($reader->read_file($_)));
 }
 
