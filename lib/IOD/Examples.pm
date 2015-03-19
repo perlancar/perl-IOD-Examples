@@ -4,4 +4,4 @@ package IOD::Examples;
 # VERSION
 
 1;
-# ABSTRACT: Example .IOD configuration files
+# ABSTRACT: Example IOD configuration files
