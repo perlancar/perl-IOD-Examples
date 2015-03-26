@@ -1,5 +1,11 @@
 Revision history for IOD-Examples
 
+0.14    2015-03-26 (PERLANCAR)
+
+	- [dzil] Revert to ShareDir for now due to corrupted
+	  shared-files.tar.gz.
+
+
 0.13    2015-03-26 (PERLANCAR)
 
 	- [dzil] Replace ShareDir with ShareDir::Tarball to avoid issues of
