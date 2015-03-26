@@ -1,5 +1,11 @@
 Revision history for IOD-Examples
 
+0.13    2015-03-26 (PERLANCAR)
+
+	- [dzil] Replace ShareDir with ShareDir::Tarball to avoid issues of
+	  renamed/deleted shared files.
+
+
 0.12    2015-03-20 (PERLANCAR)
 
 	- Add sample/test for section name (& comment) containing equal
