@@ -9,6 +9,9 @@
 name=val ; after value
 name2="two\n;lines" ; after string value
 
+; should be parsed as comment, not key
+;name3=val3
+
   # indented comment line
 [section2] # at the end section line
 name=val # after value
