@@ -1,5 +1,11 @@
 Revision history for IOD-Examples
 
+0.16    2015-08-18 (PERLANCAR)
+
+	- Add test ';name=val' which should be processed as comment not key
+	  line (Config::IOD 0.18 fails at this).
+
+
 0.15    2015-03-27 (PERLANCAR)
 
 	- [dzil] Switch to ShareDir::Tarball again after corruption issue got
