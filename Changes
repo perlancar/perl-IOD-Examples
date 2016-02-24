@@ -1,5 +1,10 @@
 Revision history for IOD-Examples
 
+0.18    2016-02-24 (PERLANCAR)
+
+	- Add example for !path and !paths.
+
+
 0.17    2015-09-06 (PERLANCAR)
 
 	- No functional changes.
