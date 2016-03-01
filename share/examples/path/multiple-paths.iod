@@ -1,0 +1,4 @@
+paths = !paths ~/a*
+paths = !paths ~/b*
+paths = !paths ~/c*
+paths = !paths ~/d*
