@@ -1,6 +1,13 @@
+0.19    2017-01-13 (PERLANCAR)
+
+	- Add example for !none (IOD 0.9.11).
+
+        - Add a couple of other examples.
+
+
 0.18    2016-02-24 (PERLANCAR)
 
-	- Add example for !path and !paths.
+	- Add example for !path and !paths (IOD 0.9.10).
 
 
 0.17    2015-09-06 (PERLANCAR)
