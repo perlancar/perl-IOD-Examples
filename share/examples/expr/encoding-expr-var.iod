@@ -1,0 +1,2 @@
+param1=!e $a * $b
+param2=!e "foo:" . $bar
